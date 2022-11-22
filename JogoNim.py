@@ -1,11 +1,3 @@
-
-# ALUNO: Matheus Henrique dos Santos Silva
-# R.A: N8522F6
-
-# ALUNO: Gabriel Aías
-# R.A: G56GDJ9
-
-
 import emoji
 def Vez_da_Maquina(n,m):
 
