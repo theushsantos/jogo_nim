@@ -1,4 +1,6 @@
-import emoji
+
+import emoji 
+
 def Vez_da_Maquina(n,m):
 
     Maquina_Remove = 1
@@ -11,6 +13,7 @@ def Vez_da_Maquina(n,m):
 
     return Maquina_Remove
 
+
 def Vez_do_Usuario(n,m):
     valida = False
     while not valida:
@@ -20,6 +23,8 @@ def Vez_do_Usuario(n,m):
         else:
             valida = True
     return usuario_remove
+
+
 def partida():
     n = int(input('1- Digite a quantidade de peças do jogo: '))
     m = int(input('2- Digite a qandidade maxima de peça que vai retirar: '))
@@ -54,6 +59,7 @@ def partida():
                 print('\nRestam {} peças!!'.format(n))
     print(emoji.emojize('\nFim de jogo, Você perdeu!! :thumbsdown:', language='alias'))
 
+    
 print('Bem Vindo ao jogo nim!!!\nDigite 1 para começar!!\nDigite qualquer 2 e "Enter" para sair!!')
 inicio = int(input('\nVamos lá? '))
 if(inicio == 1):
